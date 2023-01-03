@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css"/>
+    <title>YardSale: tienda online de cositas chidas</title>
+</head>
+<body>
+    <nav>
+        <img src="/icons/icon_menu.svg" alt="menu" class="menu">
+
+        <div class="navbar-left">
+            <img src="/logos/logo_yard_sale.svg" alt="logo" class="logo">
+
+            <ul>
+                <li>
+                    <a href="">All</a>
+                </li>
+                <li>
+                    <a href="">Clothes</a>
+                </li>
+                <li>
+                    <a href="">Electronics</a>
+                </li>
+                <li>
+                    <a href="">Fornitures</a>
+                </li>
+                <li>
+                    <a href="">Toys</a>
+                </li>
+                <li>
+                    <a href="">Others</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="navbar-right">
+            <ul>
+                <li class="navbar-email">youremail@gmail.com
+                    <img src="/icons/flechita.svg">
+                </li>
+                <li class="navbar-shopping-cart">
+                    <img src="/icons/icon_shopping_cart.svg" alt="shopping cart">
+                    <div>2</div>
+                 </li>
+            </ul>
+        </div>
+
+        <div class="desktop-menu inactive">
+            <ul>
+                <li><a href="/" class="title">My orders</a></li>
+                <li><a href="/" >My account</a></li>
+                <li><a href="/" >Sing out</a></li>
+            </ul>
+        </div>
+        <div class="mobile-menu inactive">
+            <ul>
+                <li><a href="/">CATEGORIAS</a></li>
+                <li><a href="/">Todos</a></li>
+                <li><a href="/">Viniles</a></li>
+                <li><a href="/">Cassettes</a></li>
+                <li><a href="/">CDs</a></li>
+                <li><a href="/">Instrumentos</a></li>
+                <li><a href="/">Audífonos y Tornamesas</a></li>
+            </ul>
+    
+            <ul>
+                <li><a href="/">My orders</a></li>
+                <li><a href="/">My account</a></li>
+            </ul>
+    
+            <ul>
+                <li class="email"><a href="">youremail@gmail.com</a></li>
+                <li class="sign-out"><a href="">Sign out</a></li>
+            </ul>
+        </div>
+        
+    </nav>
+
+    <aside id= "shoppingCartContainer" class="inactive">
+        <div class="title-container">
+            <img src="./icons/flechita.svg" alt="arrow">
+            <p class="title">Shopping cart</p>
+        </div>
+        
+        <div class="my-order-content">   
+            <div class="shopping-cart">
+                <figure>
+                    <img src="https://images.pexels.com/photos/1374557/pexels-photo-1374557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="vinyl">
+                </figure>
+                <p>Vinyl</p>
+                <p>$500.00</p>
+                <img src="./icons/icon_close.png" alt="close">
+            </div>
+    
+            <div class="shopping-cart">
+                <figure>
+                    <img src="https://images.pexels.com/photos/1374557/pexels-photo-1374557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="vinyl">
+                </figure>
+                <p>Vinyl</p>
+                <p>$500.00</p>
+                <img src="./icons/icon_close.png" alt="close">
+            </div>
+    
+            <div class="shopping-cart">
+                <figure>
+                    <img src="https://images.pexels.com/photos/1374557/pexels-photo-1374557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="vinyl">
+                </figure>
+                <p>Vinyl</p>
+                <p>$500.00</p>
+                <img src="./icons/icon_close.png" alt="close">
+            </div>
+    
+            <div class="shopping-cart">
+                <figure>
+                    <img src="https://images.pexels.com/photos/1374557/pexels-photo-1374557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="vinyl">
+                </figure>
+                <p>Vinyl</p>
+                <p>$500.00</p>
+                <img src="./icons/icon_close.png" alt="close">
+            </div>
+
+            <div class="order"> 
+                <p>
+                    <span>Total</span>
+                </p>
+                <p>$560.00</p>
+            </div>  
+
+            <button class="primary-button">
+                Checkout
+            </button>          
+        </div>
+    </aside>
+
+    <aside id= "productDetail" class="inactive">
+        <div class="product-detail-close">
+            <img src="/icons/icon_close.png" alt="close">
+        </div>
+        <img src="https://images.pexels.com/photos/3920974/pexels-photo-3920974.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="cassette">
+        <div class="points">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+        </div>
+        <div class="product-info">
+            <p>$350.00</p>
+            <p>Cassette</p>
+            <p>Vintage cassette with an alternative 80's playlist</p>
+            <button class="primary-button add-to-cart-button">
+                <img src="./icons/bt_add_to_cart.svg" alt="Add to cart">
+                Add to cart
+            </button>
+        </div>
+    </aside>
+
+    <section class="main-container">
+        <div class="cards-container">
+
+<!--             <div class="product-card">
+                <img src="https://images.pexels.com/photos/1374557/pexels-photo-1374557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+                <div class="product-info">
+                    <div>
+                        <p>120,00</p>
+                        <p>Vinyl</p>
+                    </div>
+                    <figure>
+                        <img src="/icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div> -->
+
+
+
+
+        </div>
+    </section>
+
+    <script src="./main.js"></script>
+</body>
+</html>
