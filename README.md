@@ -10,7 +10,7 @@ En este proyecto actualicé una tienda en línea que anteriormente había creado
 
 
 ### Links ⛓ 
-Deploy: ***
+Deploy: https://abrilfs.github.io/curso-practico-javascript/fusion.html
 
 ## Built with 🔨
 - HTML
